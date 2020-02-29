@@ -1,0 +1,15 @@
+<form class="ui form">
+    <div class="inline field">
+      <label>Email</label>
+      <input type="text" [value]="wizardFormData.email" (change)="updateEmail($event)" required placeholder="abcd@gmail.com">
+    </div>
+    <div class="inline field">
+      <label>Mobile</label>
+      <input type="text" [value]="wizardFormData.mobile" (change)="updateMobile($event)" required placeholder="+1(123)456-7890">
+    </div>
+    <div class="inline field">
+      <label>Country</label>
+      <input type="text" [value]="wizardFormData.country" (change)="updateCountry($event)" required placeholder="USA">
+    </div>
+  </form>
+  

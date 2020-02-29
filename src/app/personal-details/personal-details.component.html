@@ -1,0 +1,10 @@
+<form class="ui form">
+  <div class="inline large field">
+    <label>First Name</label>
+    <input type="text" name="first-name" [value]="wizardFormData.firstName" (change)="updateFirstName($event)" placeholder="First Name" required>
+  </div>
+  <div class="inline field">
+    <label>Last Name</label>
+    <input type="text" name="last-name" [value]="wizardFormData.lastName" (change)="updateLastName($event)" placeholder="Last Name" required>
+  </div>
+</form>

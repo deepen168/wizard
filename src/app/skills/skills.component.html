@@ -1,0 +1,15 @@
+<form class="ui form">
+  <div class="inline field">
+    <label>Skill 1</label>
+    <input type="text" [value]="skills.skill1" (change)="updateSkill1($event)" required
+      placeholder="Javascript">
+  </div>
+  <div class="inline field">
+    <label>Skill 2</label>
+    <input type="text" [value]="skills.skill2" (change)="updateSkill2($event)" placeholder="Optional">
+  </div>
+  <div class="inline field">
+    <label>Skill 3</label>
+    <input type="text" [value]="skills.skill3" (change)="updateSkill3($event)" placeholder="Optional">
+  </div>
+</form>

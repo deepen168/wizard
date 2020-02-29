@@ -1,0 +1,1 @@
+aot is set to false in angular.json due to bug on angular or material design
